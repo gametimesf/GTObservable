@@ -13,7 +13,7 @@
 To use, simply:
 
 ```swift
-    let observableLoggedIn = GTObservable<Bool>(false)
+    var observableLoggedIn = GTObservable<Bool>(false)
 
     // observe all future changes 
     observableLoggedIn.observe(self) { [weak self] update in
@@ -22,6 +22,9 @@ To use, simply:
 
     // observe all future changes AND fire with the current value at observation time  
     observableLoggedIn.fireThenObserve(self) { [weak self] _ in }
+    
+    // update the value 
+    observableLoggedIn.value = true
 
 ```
 
