@@ -12,7 +12,7 @@
 
 To use, simply:
 
-```
+```swift
     let observableLoggedIn = GTObservable<Bool>(false)
 
     // observe all future changes 
