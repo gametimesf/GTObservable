@@ -1,5 +1,5 @@
 # GTObservable
-### A simple, generic wrapper to help observe property value changes in Swift. 
+### Use GTObservable as a wrapper around your propeties making it easy to subscribe to their changes.  
 
 ## Installation
 
