@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		6FD852481E7C597600ECCEEE /* GTObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD852461E7C597600ECCEEE /* GTObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FD8524F1E7C5B2B00ECCEEE /* GTObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8524E1E7C5B2B00ECCEEE /* GTObservable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6FD852431E7C597600ECCEEE /* GTObservable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTObservable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD852461E7C597600ECCEEE /* GTObservable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTObservable.h; sourceTree = "<group>"; };
 		6FD852471E7C597600ECCEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD8524E1E7C5B2B00ECCEEE /* GTObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTObservable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				6FD852461E7C597600ECCEEE /* GTObservable.h */,
 				6FD852471E7C597600ECCEEE /* Info.plist */,
+				6FD8524E1E7C5B2B00ECCEEE /* GTObservable.swift */,
 			);
 			path = GTObservable;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					6FD852421E7C597600ECCEEE = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FD8524F1E7C5B2B00ECCEEE /* GTObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +244,7 @@
 		6FD8524C1E7C597600ECCEEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -250,6 +256,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = gametime.GTObservable;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -257,6 +264,7 @@
 		6FD8524D1E7C597600ECCEEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -291,6 +299,7 @@
 				6FD8524D1E7C597600ECCEEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
