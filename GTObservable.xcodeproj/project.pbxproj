@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6FD852481E7C597600ECCEEE /* GTObservable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD852461E7C597600ECCEEE /* GTObservable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FD8524F1E7C5B2B00ECCEEE /* GTObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD8524E1E7C5B2B00ECCEEE /* GTObservable.swift */; };
+		6FD852561E7C88D100ECCEEE /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD852551E7C88D100ECCEEE /* Operators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		6FD852461E7C597600ECCEEE /* GTObservable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTObservable.h; sourceTree = "<group>"; };
 		6FD852471E7C597600ECCEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FD8524E1E7C5B2B00ECCEEE /* GTObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GTObservable.swift; sourceTree = "<group>"; };
+		6FD852551E7C88D100ECCEEE /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 				6FD852461E7C597600ECCEEE /* GTObservable.h */,
 				6FD852471E7C597600ECCEEE /* Info.plist */,
 				6FD8524E1E7C5B2B00ECCEEE /* GTObservable.swift */,
+				6FD852551E7C88D100ECCEEE /* Operators.swift */,
 			);
 			path = GTObservable;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FD8524F1E7C5B2B00ECCEEE /* GTObservable.swift in Sources */,
+				6FD852561E7C88D100ECCEEE /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

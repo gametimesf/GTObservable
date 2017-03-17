@@ -8,6 +8,8 @@
 
 import Foundation
 
+infix operator <=: AssignmentPrecedence
+
 class GTObserver<T> {
     let handler: GTObservable<T>.Closure
 
@@ -62,6 +64,14 @@ public struct GTObservable<T> {
     public func unsubscribe(_ observer: AnyObject) {
         observers.removeObject(forKey: observer)
     }
+}
+
+public func <=<T>(left: inout GTObservable<T>?, right: T) {
+    left?.value = right
+}
+
+public func <=<T>(left: inout T, right: GTObservable<T>) {
+    left = right.value
 }
 
 public struct GTObservableUpdate<T> {
