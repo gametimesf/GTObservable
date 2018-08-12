@@ -7,7 +7,7 @@
 
 ### Carthage
 
-    github "gametimesf/GTObservable" == 1.0
+    github "gametimesf/GTObservable" == 1.1
 
 
 To use, simply:
